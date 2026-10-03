@@ -1,0 +1,16 @@
+{
+  "name": "AudioBoost",
+  "version": "0.1.0",
+  "author": "dcqwqc",
+  "homepage": "https://github.com/dcqwqc/CaelestiaPlugin-AudioBoost",
+  "icon": "volume_up",
+  "description": "Extend Caelestia output and per-app volume controls beyond 100%, with a configurable boost ceiling and persistent per-app boost presets.",
+  "entryPoints": [
+    {
+      "type": "custom",
+      "source": "Main.qml"
+    }
+  ],
+  "settings": "Settings.qml",
+  "settingsUi": "SettingsUi.qml"
+}
